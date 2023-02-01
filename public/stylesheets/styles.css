@@ -31,8 +31,8 @@ font-family: Arial, Helvetica, sans-serif;
 nav {
     width: 100vw;
     background-color: #2081C3;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .nav-bar-ul a {
     text-decoration: none;
@@ -46,4 +46,20 @@ nav {
 }
 .beers-foreach img {
     width: 100px;
+}
+#randomBeerImg {
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.randomBeerpage {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+#randomBeerTextline {
+    margin-top: 20px;
+}
+#foodPairing {
+    list-style: circle;
 }
